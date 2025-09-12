@@ -2,8 +2,8 @@
 import { notFound } from 'next/navigation';
 import { cars } from '@/data/cars';
 
-const PHONE = '+995557496359';
-const WHATSAPP_INTL = '995557496359';
+const PHONE = '+971569866636';
+const WHATSAPP_INTL = '971569866636';
 
 export function generateStaticParams() {
   // برای SSG (اختیاری ولی خوبه)
