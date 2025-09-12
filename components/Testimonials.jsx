@@ -32,7 +32,7 @@ export default function Testimonials() {
       <div className="mb-6 flex items-center justify-between">
         <h2 className="text-2xl font-bold">What customers say</h2>
         <a
-          href="https://wa.me/995557496359"
+          href="https://wa.me/971569866636"
           target="_blank"
           rel="noopener noreferrer"
           className="text-sm font-semibold text-green-700 hover:underline"
@@ -81,8 +81,8 @@ export default function Testimonials() {
       <div className="mt-8 rounded-2xl border border-green-700 bg-green-50 p-6 text-center">
         <p className="text-gray-800">
           Need help choosing a car? Call us at{' '}
-          <a href="tel:+995557496359" className="font-semibold text-green-700 underline">
-            +995 557 496 359
+          <a href="tel:+971569866636" className="font-semibold text-green-700 underline">
+            +971 569 866 636
           </a>{' '}
           — Dubai, UAE
         </p>

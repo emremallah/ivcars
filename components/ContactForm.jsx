@@ -1,6 +1,6 @@
 'use client';
 
-const WHATSAPP_INTL = '995557496359';
+const WHATSAPP_INTL = '971569866636';
 
 function buildWaUrl(fields) {
   const {
@@ -165,7 +165,7 @@ export default function ContactForm() {
           </button>
 
           <a
-            href="tel:+995557496359"
+            href="tel:+971569866636"
             className="inline-flex w-full items-center justify-center gap-2 rounded-md border border-green-700 px-5 py-3 font-semibold text-green-800 hover:bg-green-50"
           >
             Call us

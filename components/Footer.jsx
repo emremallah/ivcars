@@ -2,8 +2,8 @@
 import Image from 'next/image';
 import Link from 'next/link';
 
-const PHONE = '+995557496359';
-const WHATSAPP_INTL = '995557496359';
+const PHONE = '971569866636';
+const WHATSAPP_INTL = '971569866636';
 
 export default function Footer() {
   return (
@@ -59,7 +59,7 @@ export default function Footer() {
               <li>
                 <span className="block">Phone / Botim / WhatsApp</span>
                 <a href={`tel:${PHONE}`} className="font-medium text-gray-900 hover:underline">
-                  +995 557 496 359
+                  +971 569 866 636
                 </a>
               </li>
               <li>
@@ -70,7 +70,7 @@ export default function Footer() {
                   rel="noopener noreferrer"
                   className="font-medium text-gray-900 hover:underline"
                 >
-                  wa.me/995557496359
+                  wa.me/971569866636
                 </a>
               </li>
               <li>

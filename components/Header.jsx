@@ -4,8 +4,8 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { useState, useEffect } from 'react';
 
-const PHONE = '+995557496359';
-const WHATSAPP_INTL = '995557496359'; // برای wa.me باید بدون +
+const PHONE = '+971569866636';
+const WHATSAPP_INTL = '971569866636'; // برای wa.me باید بدون +
 
 export default function Header() {
   const [open, setOpen] = useState(false);

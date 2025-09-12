@@ -2,8 +2,8 @@
 
 import { Phone, MessageCircle } from 'lucide-react'; // WhatsApp ≈ MessageCircle
 
-const PHONE = '+995557496359';
-const WHATSAPP_INTL = '995557496359';
+const PHONE = '+971569866636';
+const WHATSAPP_INTL = '971569866636';
 
 export default function FloatingContactButton() {
   return (

@@ -90,14 +90,14 @@ export default function WhyChoose() {
           {/* Quick Contact */}
           <div className="mt-6 flex flex-col gap-3 sm:flex-row">
             <a
-              href="tel:+995557496359"
+              href="tel:+971569866636"
               className="inline-flex w-full items-center justify-center gap-2 rounded-md border border-green-700 px-4 py-3 font-semibold text-green-800 hover:bg-green-50"
             >
               <svg className="h-5 w-5" viewBox="0 0 24 24" fill="currentColor"><path d="M6.62 10.79a15.053 15.053 0 006.59 6.59l2.2-2.2a1 1 0 011.01-.24c1.12.37 2.33.57 3.58.57a1 1 0 011 1V21a1 1 0 01-1 1C10.3 22 2 13.7 2 3a1 1 0 011-1h3.5a1 1 0 011 1c0 1.25.2 2.46.57 3.58a1 1 0 01-.24 1.01l-2.21 2.2z"/></svg>
               Call Now
             </a>
             <a
-              href="https://wa.me/995557496359"
+              href="https://wa.me/971569866636"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex w-full items-center justify-center gap-2 rounded-md bg-green-700 px-4 py-3 font-semibold text-white hover:bg-green-800"
