@@ -167,23 +167,231 @@ export const cars = [
     id: 'chevrolet-malibu', name: 'Chevrolet Malibu', brand: 'chevrolet', gearbox: 'automatic', price: 270,
     image: 'https://upload.wikimedia.org/wikipedia/commons/b/ba/2019_Chevrolet_Malibu_LT_1.5L%2C_front_8.25.19.jpg'
   },
-// --- Added (Volkswagen Passat → Mercedes-Benz S-Class) with relevant, tested Pexels links ---
-{
-  id: 'vw-passat',
-  name: 'Volkswagen Passat',
-  brand: 'volkswagen',
-  gearbox: 'automatic',
-  price: 280,
-  image:
-    'https://images.pexels.com/photos/11490480/pexels-photo-11490480.jpeg?auto=compress&cs=tinysrgb&w=1600',
-},
-{
-  id: 'mercedes-sclass-2',
-  name: 'Mercedes-Benz S-Class',
-  brand: 'mercedes',
-  gearbox: 'automatic',
-  price: 1200,
-  image:
-    'https://images.pexels.com/photos/18369291/pexels-photo-18369291.jpeg?auto=compress&cs=tinysrgb&w=1600',
-},
+  // --- Added (Volkswagen Passat → Mercedes-Benz S-Class) with relevant, tested Pexels links ---
+  {
+    id: 'vw-passat',
+    name: 'Volkswagen Passat',
+    brand: 'volkswagen',
+    gearbox: 'automatic',
+    price: 280,
+    image:
+      'https://images.pexels.com/photos/11490480/pexels-photo-11490480.jpeg?auto=compress&cs=tinysrgb&w=1600',
+  },
+  {
+    id: 'mercedes-sclass-2',
+    name: 'Mercedes-Benz S-Class',
+    brand: 'mercedes',
+    gearbox: 'automatic',
+    price: 1200,
+    image:
+      'https://images.pexels.com/photos/18369291/pexels-photo-18369291.jpeg?auto=compress&cs=tinysrgb&w=1600',
+  },
+  {
+    id: 'nissan-patrol',
+    name: 'Nissan Patrol',
+    brand: 'nissan',
+    gearbox: 'automatic',
+    price: 950,
+    image: 'https://wieck-nissanao-production.s3.us-west-1.amazonaws.com/releaseInlineImages/61e632c8bd51d7546a49c9f711ebfa0838314013'
+  },
+  {
+    id: 'gmc-yukon',
+    name: 'GMC Yukon',
+    brand: 'gmc',
+    gearbox: 'automatic',
+    price: 1100,
+    image: 'https://hips.hearstapps.com/hmg-prod/images/2025-gmc-yukon-denali-101-6852cef1b5273.jpg?crop=0.743xw:0.625xh;0.234xw,0.315xh&resize=1200:*'
+  },
+  {
+    id: 'mercedes-c-class',
+    name: 'Mercedes-Benz C-Class',
+    brand: 'mercedes',
+    gearbox: 'automatic',
+    price: 500,
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaWUNS5nBMVAPhqm03uqfP4IYk8AVCYZimdw&s'
+  },
+  {
+    id: 'bmw-4-series',
+    name: 'BMW 4 Series',
+    brand: 'bmw',
+    gearbox: 'automatic',
+    price: 600,
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRI2HfL-M3GMliP4Q3y4qpfFNO89WrAicM4qQ&s'
+  },
+  {
+    id: 'ford-mustang',
+    name: 'Ford Mustang',
+    brand: 'ford',
+    gearbox: 'automatic',
+    price: 700,
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWB1YNdqEj9jTTGOwuHFpY8GUCZHcvnq1RgA&s'
+  },
+  {
+    id: 'chevrolet-camaro',
+    name: 'Chevrolet Camaro',
+    brand: 'chevrolet',
+    gearbox: 'automatic',
+    price: 650,
+    image: 'https://www.freep.com/gcdn/-mm-/63cffa5d18e41af581608c9f56255465b45e136f/c=4-0-2715-1532/local/-/media/2016/07/16/DetroitFreePress/DetroitFreePress/636042916555403692-2016-Chevrolet-Camaro-SS23.JPG?width=660&height=373&fit=crop&format=pjpg&auto=webp'
+  },
+  {
+    id: 'hyundai-palisade',
+    name: 'Hyundai Palisade',
+    brand: 'hyundai',
+    gearbox: 'automatic',
+    price: 550,
+    image: 'https://di-uploads-pod27.dealerinspire.com/fairfaxhyundai/uploads/2024/07/Large-62102-2025Palisade-1-1.png'
+  },
+  {
+    id: 'nissan-kicks',
+    name: 'Nissan Kicks',
+    brand: 'nissan',
+    gearbox: 'automatic',
+    price: 300,
+    image: 'https://i.gaw.to/content/photos/53/52/535253-nissan-kicks-2022.jpeg'
+  },
+  {
+    id: 'range-rover-vogue',
+    name: 'Range Rover Vogue',
+    brand: 'land_rover',
+    gearbox: 'automatic',
+    price: 900,
+    image: 'https://res.cloudinary.com/unix-center/image/upload/c_limit,dpr_3.0,f_auto,fl_progressive,g_center,h_580,q_75,w_906/dupt9zg2yrovmb8phw0v.jpg'
+  },
+  {
+    id: 'land-rover-discovery',
+    name: 'Land Rover Discovery',
+    brand: 'land_rover',
+    gearbox: 'automatic',
+    price: 700,
+    image: 'https://hips.hearstapps.com/hmg-prod/images/2021-land-rover-discovery-r-dynamic-s-08-1641867224.jpg?crop=0.841xw:0.710xh;0.0656xw,0.178xh&resize=1200:*'
+  },
+  {
+    id: 'mercedes-g63',
+    name: 'Mercedes-Benz G 63 AMG',
+    brand: 'mercedes',
+    gearbox: 'automatic',
+    price: 1500,
+    image: 'https://di-uploads-pod3.dealerinspire.com/fletcherjonesmbnewport/uploads/2018/04/2019-G-G63-AMG-SUV-FUTURE-GALLERY-010-WR-D-1024x640.jpg'
+  },
+  {
+    id: 'lamborghini-urus',
+    name: 'Lamborghini Urus',
+    brand: 'lamborghini',
+    gearbox: 'automatic',
+    price: 2200,
+    image: 'https://octane.rent/wp-content/uploads/2024/11/lamborghini_urus_grey_matte_02-600x400.webp'
+  },
+  {
+    id: 'cadillac-escalade',
+    name: 'Cadillac Escalade',
+    brand: 'cadillac',
+    gearbox: 'automatic',
+    price: 1300,
+    image: 'https://www.luxurysportcarsdubai.com/wp-content/uploads/2023/12/WhatsApp-Image-2023-12-17-at-5.01.20-PM.jpeg'
+  },
+  {
+    id: 'audi-a4',
+    name: 'Audi A4',
+    brand: 'audi',
+    gearbox: 'automatic',
+    price: 420,
+    image: 'https://www.dubicars.com/images/3fcc8a/f_500x282/al-kuwait-used-cars-exhibition-llc/483adb95-0638-4c48-baea-7d10edba6799.jpg'
+  },
+  {
+    id: 'mercedes-glc',
+    name: 'Mercedes-Benz GLC',
+    brand: 'mercedes',
+    gearbox: 'automatic',
+    price: 650,
+    image: 'https://www.saharamotorsuae.com/uploads/car_image/22112173305DSC_1414.webp'
+  },
+  {
+    id: 'mercedes-gle',
+    name: 'Mercedes-Benz GLE',
+    brand: 'mercedes',
+    gearbox: 'automatic',
+    price: 850,
+    image: 'https://rentacar-dubai.ae/wp-content/uploads/2023/09/Mercedes-AMG-GLE-53.jpg'
+  },
+  {
+    id: 'land-rover-defender',
+    name: 'Land Rover Defender',
+    brand: 'land_rover',
+    gearbox: 'automatic',
+    price: 1000,
+    image: 'https://www.fastercars.ae/uploads/1722166418Land%20ROver%20Defender%20(7).webp'
+  },
+  {
+    id: 'toyota-t2',
+    name: 'Toyota T2',
+    brand: 'toyota',
+    gearbox: 'automatic',
+    price: 400,
+    image: 'https://xcarrental.com/wp-content/uploads/2024/05/Jetour-T2-Rental-Dubai-960x636.jpg'
+  },
+  {
+    id: 'mercedes-gls',
+    name: 'Mercedes-Benz GLS',
+    brand: 'mercedes',
+    gearbox: 'automatic',
+    price: 950,
+    image: 'https://rent-cars.ae/public/cache/vehicle_689/546x360/4533a70a0cdf084e07d9efeb21b60861/mercedes_gls-class_black_2021_689_1.webp'
+  },
+  {
+    id: 'jeep-wrangler',
+    name: 'Jeep Wrangler',
+    brand: 'jeep',
+    gearbox: 'automatic',
+    price: 750,
+    image: 'https://findcardubai.com/wp-content/uploads/2024/11/2025-Jeep-Wrangler-in-Dubai.webp'
+  },
+  {
+    id: 'mercedes-cla',
+    name: 'Mercedes-Benz CLA',
+    brand: 'mercedes',
+    gearbox: 'automatic',
+    price: 600,
+    image: 'https://storage.albacars.ae/vehicles/d49ef47f-38f8-4f26-b16e-8d57ee4bcc19/e8dc43f4-3265-49e8-add9-86b5ed74eda9.jpeg?width=800&quality=75&format=webp'
+  },
+  {
+    id: 'audi-a3',
+    name: 'Audi A3',
+    brand: 'audi',
+    gearbox: 'automatic',
+    price: 550,
+    image: 'https://rentalcarsuae.com/wp-content/uploads/2023/06/Rent-Audi-A3-in-Dubai.jpg'
+  },
+  {
+    id: 'hyundai-kona',
+    name: 'Hyundai Kona',
+    brand: 'hyundai',
+    gearbox: 'automatic',
+    price: 400,
+    image: 'https://static.oneclickdrive.com/uploads/mobcars/Hyundai_Kona_2021_26283_26283_22888768603-1_small.jpg'
+  },
+  {
+    id: 'kia-telluride',
+    name: 'Kia Telluride',
+    brand: 'kia',
+    gearbox: 'automatic',
+    price: 550,
+    image: 'https://exfordrentacar.com/program/images/products/16826818102.jpeg'
+  },
+  {
+    id: 'hyundai-sonata',
+    name: 'Hyundai Sonata',
+    brand: 'hyundai',
+    gearbox: 'automatic',
+    price: 450,
+    image: 'https://static.tildacdn.one/tild3133-3262-4731-a530-636665383062/WhatsApp_Image_2024-.jpeg'
+  },
+  {
+    id: 'audi-q7',
+    name: 'Audi Q7',
+    brand: 'audi',
+    gearbox: 'automatic',
+    price: 750,
+    image: 'https://storage.albacars.ae/vehicles/bb1fdbc0-1346-408c-9389-8ee62f9cd896/0cc6bf67-75f7-4d01-821c-5e794e2e0382.jpeg?width=800&quality=75&format=webp'
+  }
 ];
