@@ -8,7 +8,7 @@ export const cars = [
     gearbox: 'automatic',
     price: 2999, // AED/day
     image:
-      'https://commons.wikimedia.org/wiki/Special:FilePath/Lamborghini%20Huracan%20Evo%20IMG%202924.jpg?width=1600',
+      'https://www.luxurysportcarsdubai.com/wp-content/uploads/2024/10/Rent-Lamborghini-Huracan-Evo-Coupe-in.jpg',
   },
   {
     id: 'ferrari-f8',
@@ -17,7 +17,7 @@ export const cars = [
     gearbox: 'automatic',
     price: 3299,
     image:
-      'https://commons.wikimedia.org/wiki/Special:FilePath/2022%20Ferrari%20F8%20Tributo.jpg?width=1600',
+      'https://mrline.net/program/images/products/1699185338imageFile.jpg',
   },
   {
     id: 'mercedes-sclass',
@@ -35,7 +35,7 @@ export const cars = [
     gearbox: 'automatic',
     price: 1290,
     image:
-      'https://commons.wikimedia.org/wiki/Special:FilePath/2024%20BMW%20M4%20(G82)%20Competition%20IMG%209367.jpg?width=1600',
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOMi5c4DMaffJYsijRcd-YwqefRVyQOhkhjg&s',
   },
   {
     id: 'audi-r8',
@@ -73,7 +73,7 @@ export const cars = [
     gearbox: 'automatic',
     price: 180,
     image:
-      'https://commons.wikimedia.org/wiki/Special:FilePath/1999-2000%20Nissan%20Sunny%20(B14)%201.6%20Super%20Saloon%20Sedan%20(08-06-2018)%2004.jpg?width=1600',
+      'https://www-europe.nissan-cdn.net/content/dam/Nissan/nissan_middle_east/vehicles/sunny/my24/configurator/NEW-SUNNY-SV.jpg',
   },
   {
     id: 'kia-picanto',
@@ -82,7 +82,7 @@ export const cars = [
     gearbox: 'automatic',
     price: 170,
     image:
-      'https://commons.wikimedia.org/wiki/Special:FilePath/2017%20Kia%20Picanto%201%201.0%20Front.jpg?width=1600',
+      'https://renty.ae/uploads/car/photo/l/white_kia-picanto_2023_5470_main_2db9af41cda833c433d3c2e1fcc41a0f.jpg',
   },
   {
     id: 'hyundai-accent',
@@ -91,7 +91,7 @@ export const cars = [
     gearbox: 'automatic',
     price: 190,
     image:
-      "https://commons.wikimedia.org/wiki/Special:FilePath/'06-'11%20Hyundai%20Accent%20Sedan.jpg?width=1600",
+      "https://renty.ae/uploads/car/photo/l/white_hyundai-accent_2024_5870_main_ce027f16b589a640b6e3399bd1a9903b.jpg",
   },
   {
     id: 'mitsubishi-attrage',
@@ -175,7 +175,7 @@ export const cars = [
     gearbox: 'automatic',
     price: 280,
     image:
-      'https://images.pexels.com/photos/11490480/pexels-photo-11490480.jpeg?auto=compress&cs=tinysrgb&w=1600',
+      'https://mario-carrental.com/program/images/products/16566750472.jpeg',
   },
   {
     id: 'mercedes-sclass-2',
@@ -208,7 +208,7 @@ export const cars = [
     brand: 'mercedes',
     gearbox: 'automatic',
     price: 500,
-    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaWUNS5nBMVAPhqm03uqfP4IYk8AVCYZimdw&s'
+    image: 'https://storage.albacars.ae/vehicles/bb3d0afc-0e13-4045-bfa2-2853f7947096/db07747e-5a20-475a-9677-78a928de0d4c.jpeg?width=800&quality=75&format=webp'
   },
   {
     id: 'bmw-4-series',
@@ -232,7 +232,7 @@ export const cars = [
     brand: 'chevrolet',
     gearbox: 'automatic',
     price: 650,
-    image: 'https://www.freep.com/gcdn/-mm-/63cffa5d18e41af581608c9f56255465b45e136f/c=4-0-2715-1532/local/-/media/2016/07/16/DetroitFreePress/DetroitFreePress/636042916555403692-2016-Chevrolet-Camaro-SS23.JPG?width=660&height=373&fit=crop&format=pjpg&auto=webp'
+    image: 'https://static.oneclickdrive.com/uploads/mobcars/Chevrolet-Camaro-2017_4367_3040183258-10_small.jpg'
   },
   {
     id: 'hyundai-palisade',
