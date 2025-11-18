@@ -53,7 +53,7 @@ export const cars = [
     gearbox: 'automatic',
     price: 390,
     image:
-      'https://commons.wikimedia.org/wiki/Special:FilePath/2024%20Audi%20A3%208Y%20IMG%201008.jpg?width=1600',
+      'https://static.oneclickdrive.com/uploads/mobcars/Audi-A3-2023_36500_34869973114-13_small.jpg',
   },
 
   // ----- Added batch 1 (kept as-is per your request) -----
@@ -224,7 +224,7 @@ export const cars = [
     brand: 'ford',
     gearbox: 'automatic',
     price: 700,
-    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWB1YNdqEj9jTTGOwuHFpY8GUCZHcvnq1RgA&s'
+    image: 'mustang.jpeg'
   },
   {
     id: 'chevrolet-camaro',
